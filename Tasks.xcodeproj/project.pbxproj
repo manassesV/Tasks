@@ -16,6 +16,8 @@
 		D2DA89AA264C3BD300817202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DA89A8264C3BD300817202 /* LaunchScreen.storyboard */; };
 		D2DA89B5264C3BD300817202 /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA89B4264C3BD300817202 /* TasksTests.swift */; };
 		D2DA89C0264C3BD300817202 /* TasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA89BF264C3BD300817202 /* TasksUITests.swift */; };
+		D2DA89D1264C434700817202 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA89D0264C434700817202 /* EntryViewController.swift */; };
+		D2DA89D6264C439C00817202 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA89D5264C439C00817202 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D2DA89BB264C3BD300817202 /* TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DA89BF264C3BD300817202 /* TasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITests.swift; sourceTree = "<group>"; };
 		D2DA89C1264C3BD300817202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DA89D0264C434700817202 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		D2DA89D5264C439C00817202 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D2DA89A8264C3BD300817202 /* LaunchScreen.storyboard */,
 				D2DA89AB264C3BD300817202 /* Info.plist */,
 				D2DA89A3264C3BD200817202 /* Tasks.xcdatamodeld */,
+				D2DA89D0264C434700817202 /* EntryViewController.swift */,
+				D2DA89D5264C439C00817202 /* TaskViewController.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DA89A5264C3BD200817202 /* Tasks.xcdatamodeld in Sources */,
+				D2DA89D1264C434700817202 /* EntryViewController.swift in Sources */,
 				D2DA899F264C3BD200817202 /* ViewController.swift in Sources */,
 				D2DA899B264C3BD200817202 /* AppDelegate.swift in Sources */,
 				D2DA899D264C3BD200817202 /* SceneDelegate.swift in Sources */,
+				D2DA89D6264C439C00817202 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
